@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<!-- naam: Dylan Weyns
+
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Oef3</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="assets/css/oef3.css" />
+</head>
+<body>
+<main>
+    <h1>Bedankt voor je bestelling</h1>
+    <form method="get" action="bestel.html">
+        <div class="producten">
+            <label for="aantal_legotreinen">Lego trein </label>
+            <label> <img src="assets/images/train1.jpg" alt="legotrein"></label>
+            <label>aantal</label>
+            <input type="number" id="aantal_legotreinen" name="aantal_legotrein1">
+        </div>
+        <div class="producten">
+            <label for="aantal_legosets">Lego set</label>
+            <label><img src="assets/images/lego1.jpg" alt="legotrein"></label>
+            <label>aantal</label>
+            <input type="number" id="aantal_legosets" name="aantal_lego1">
+        </div>
+        <div class="betaalwijze">
+            <label>betaalwijze</label>
+            <input type="radio" id="visa" name="betaalwijze" value="visa">
+            <label for="visa"><img src="assets/images/visa.png" alt="visa logo"></label>
+            <input type="radio" id="mastercard" name="betaalwijze" value="mastercard">
+            <label for="mastercard"><img src="assets/images/mastercard.png" alt="mastercard logo"> </label>
+            <input type="radio" id="overschrijving" name="betaalwijze" value="oberschijving">
+            <label for="overschrijving">overschrijving</label>
+
+        </div>
+        <div class="opmerkingen">
+            <p>opmerkingen</p>
+            <label for="opmerkingen"></label>
+            <textarea id="opmerkingen" name="opmerkingen"
+            rows="10"></textarea>
+        </div>
+        <div class="straat">
+            <label for="straat">Straat</label>
+            <input type="text" id="straat" name="straat">
+            <label for="nummer">Nummer</label>
+            <input type="text" id="nummer" name="nummer">
+        </div>
+        <div class="bestellen">
+            <input type="submit" value="Bestellen">
+        </div>
+    </form>
+</main>
+</body>
+</html>

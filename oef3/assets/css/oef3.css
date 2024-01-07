@@ -1,0 +1,108 @@
+/* naam: Dylan Weyns
+*/
+
+/* 
+kleuren:
+    oranje: orange
+    wit:    white
+    blauw:  0090e3
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    font-size: 18pt;
+}
+form{
+    max-width: 700px;
+    margin: 10px;
+}
+label, input{
+    vertical-align: top;
+
+}
+.producten{
+    margin: 5px 0px;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: solid;
+    border-width: 2px;
+    padding: 30px;
+}
+.producten label img{
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.producten input{
+    width: 40px;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.betaalwijze{
+    margin: 5px 0px;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    vertical-align: bottom;
+    display: flex;
+}
+.betaalwijze label img{
+    width: 100px;
+    vertical-align: bottom;
+}
+.opmerkingen{
+    margin: 5px 0px;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+.opmerkingen label{
+    width: 700px;
+}
+.opmerkingen textarea{
+    font-size: 18pt;
+    width: 680px;
+}
+.straat{
+    margin: 5px 0px;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+.straat label{
+    width: 125px;
+}
+#straat{
+    width: 300px;
+    font-size: 18pt;
+}
+#nummer{
+    width: 125px;
+    font-size: 18pt;
+}
+.bestellen{
+    margin: 5px 0px;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+.bestellen input{
+    background-color: #0090e3;
+    color: white;
+    width: 100%;
+    font-size: 18pt;
+    padding: 10px;
+}
